@@ -8,7 +8,7 @@ AI学習を継続可能な形で再開するために、リポジトリ、学習
 
 - [x] リポジトリを作成した
 - [x] Python環境を作成した
-- [ ] 基本的な機械学習ライブラリをインストールした
+- [x] 基本的な機械学習ライブラリをインストールした
 - [ ] 最初のデータセットを選定した
 - [ ] 最初のベースラインNotebookを作成した
 
@@ -48,10 +48,12 @@ AI学習を継続可能な形で再開するために、リポジトリ、学習
 - numpy, pandas, scikit-learn, matplotlib, jupyter, torch を追加した
 - src/check_environment.py を作成した
 - import の動作確認を行った
+- Jupyter Notebook の起動確認を行った
 
 うまくいったこと:
 
-- 特になし
+- `uv run python src/check_environment.py` で主要ライブラリの import とバージョン確認が成功した
+- `uv run jupyter notebook` で Jupyter Server が起動した
 
 詰まったこと:
 
